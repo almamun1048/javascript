@@ -1,25 +1,30 @@
-// <!DOCTYPE html>
-// <html lang="en">
-// <head>
-//     <meta charset="UTF-8">
-//     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-//     <title>onClick</title>
-// </head>
-// <body>
+
+//html code
+
+/*
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
     
-//     <button onclick="image1()">Mamun</button>
-//     <button onclick="image2()">Habiba</button>
+    <button onclick="image1()">Mamun</button>
+    <button onclick="image2()">Habiba</button>
 
-//     <br>
+    <br>
 
-//     <img id="myImageId" src="" alt="" height="400px" width="400px">
+    <img id="myImageId" src="" alt="" height="400px" width="400px">
 
-//     <script src="main.js"></script>
-// </body>
-// </html>
+    <script src="./query_selector.js"></script>
+</body>
+</html>
 
-
+*/
 
 var pic = document.querySelector("#myImageId");
 
