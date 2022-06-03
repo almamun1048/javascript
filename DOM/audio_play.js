@@ -39,7 +39,6 @@ body{
     background-color: #8b8888;
 }
 
-.myButton{
     padding: 5px;
     background-color: rgba(182, 35, 174, 0.356);
     color: white;
