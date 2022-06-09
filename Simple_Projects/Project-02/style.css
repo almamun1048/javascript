@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.container{
+    width: 100%;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.post{
+    width: 23%;
+    margin: 0.2rem;
+    box-shadow: 0 4px 8px rgba(0, .0, .0,.2);
+    padding: 0.5rem;
+    transition: all 0.4s;
+}
+.post:hover{
+    box-shadow: 0 8px 16px rgba(0, .0, .0,.2);
+}
+
+@media screen and (max-width : 990px) {
+    .post{
+        width: 48%;
+    }
+}
+@media screen and (max-width : 600px) {
+    .post{
+        width: 98%;
+    }
+}
