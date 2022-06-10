@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    
+}
+.card{
+    background-color: brown;
+    height: 20%;
+    padding: 1rem;
+    width: 25%;
+}
+.card .card-title{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+form{
+    text-align: center;
+}
+label{
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+}
+input{
+    padding: 0.5rem;
+    border: 2px solid #666;
+    text-align: center;
+}
+button{
+    width: 60px;
+    height: 40px;
+    background-color: crimson;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.result{
+    height: 12%;
+    color: white;
+    background-color: crimson;
+    padding: 1rem;
+    width: 25%;
+    text-align: center;
+}
+.result p{
+    font-size: 1.5rem;
+
+}
